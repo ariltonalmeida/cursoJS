@@ -7,12 +7,12 @@ do {
 */
 
 
-var inicio = -3
-var fim = 5
-var passo = 6
+var inicio = 1
+var fim = 10
+var passo = 2
 while (inicio <= fim){
     console.log(inicio)
-    var inicio = inicio + passo
+    inicio + passo == inicio
 }
 
 

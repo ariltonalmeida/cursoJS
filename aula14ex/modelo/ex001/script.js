@@ -4,5 +4,5 @@ function contar(){
     var passo = document.getElementById('txtpasso')
     var res = document.getElementById('div#res')
     while (inicio <= fim)
-    inicio + passo = inicio
+    var inicio = passo + inicio
 }
