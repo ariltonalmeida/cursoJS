@@ -1,0 +1,12 @@
+valores = [8, 1, 7, 4, 9, 5]
+valores.sort()
+ 
+/*
+for(let pos=0; pos < valores.length; pos++){
+    console.log(`A posilção ${pos} tem o valor ${valores[pos]}`)
+}
+*/
+
+for(let pos in valores){
+    console.log(`A posilção ${pos} tem o valor ${valores[pos]}`)
+}
